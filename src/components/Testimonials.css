@@ -1,0 +1,22 @@
+.Testimonials{
+    color: white;
+}
+.Testimonials h3{
+    margin-left: 40%;
+    background: linear-gradient(89.99640135069485deg, rgba(37, 37, 53, 0) 0%, rgba(0, 255, 255, 0.46) 29.611819982528687%, rgba(0, 255, 255, 0.506) 70.28512954711914%, rgba(15, 15, 20, 0) 100%, rgba(15, 15, 20, 0) 100%);
+    width: 20%;
+    text-align: center;
+}
+.Testimonials h1{
+    width: 40%;
+    font-size: 3rem;
+    margin-left: 30%;
+    text-align: center;
+}
+.Testimonials p{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color: gray;
+    font-size: 1.1rem;
+}

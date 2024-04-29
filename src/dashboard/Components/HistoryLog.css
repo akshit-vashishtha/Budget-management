@@ -1,0 +1,51 @@
+.log {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(208, 253, 243); /* Light blue */
+    padding: 10px 0;
+}
+
+.serial, .price, .category, .time {
+flex: 1.5;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+padding: 5px;
+color: rgb(45, 50, 62); /* Dark blue */
+}
+.price,.time{
+flex: 1;
+}
+
+.description {
+flex: 4;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+padding: 5px;
+color: rgb(45, 50, 62); /* Dark blue */
+}
+
+li {
+list-style: none;
+}
+
+ul {
+padding: 0;
+}
+
+.heading {
+font-size: 1.1rem;
+background-color: rgb(208, 253, 243); /* Light blue */
+padding: 10px;
+border-bottom: 2px solid rgb(45, 50, 62); /* Dark blue */
+}
+
+.heading .log {
+font-weight: bold;
+color: rgb(45, 50, 62); /* Dark blue */
+}
+
+li:hover {
+background-color: rgb(210, 255, 210);
+}

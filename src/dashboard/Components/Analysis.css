@@ -1,0 +1,9 @@
+.Analysis{
+    height: 42vh;
+    width: 37vw;
+    background-color: black;
+    /* background-color: rgb(24, 29, 36); */
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 5px;
+}

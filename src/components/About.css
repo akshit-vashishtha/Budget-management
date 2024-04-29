@@ -1,0 +1,121 @@
+.About{
+    color: white;
+    height: 85vh;
+}
+.About .whatWeDo{
+    text-align: center;
+}
+.whatWeDo h3{
+    margin-left: 40%;
+    background: linear-gradient(89.99640135069485deg, rgba(37, 37, 53, 0) 0%, rgba(0, 255, 255, 0.46) 29.611819982528687%, rgba(0, 255, 255, 0.506) 70.28512954711914%, rgba(15, 15, 20, 0) 100%, rgba(15, 15, 20, 0) 100%);
+    width: 20%;
+    font-family: 'Red Hat Display','sans-serif';
+}
+.whatWeDo h1{
+    width: 40%;
+    font-size: 3rem;
+    margin-left: 30%;
+}
+.AboutCards{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 2%;
+}
+.customerReviewsContainer {
+    margin-top: 3%;
+    overflow: hidden;
+    height: 40vh;
+  }
+  
+  .customerReviews {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    gap: 3%;
+    height: 100%;
+  }
+  
+  .review-card {
+    flex: 0 0 auto;
+    width: 30vw; /* Adjust the width of each card as needed */
+    height: 30vh;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    transition: 2s background;
+  }
+  .review{
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+    font-size: 1.1rem;
+  }
+  .author{
+    margin-left: 10%;
+    width: 50%;
+  }
+  .author .name{
+    font-size: 1.1rem;
+  }
+  .author .designation{
+    color: gray;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.review-card:hover{
+    background: linear-gradient(to right, rgb(0, 100, 100), rgb(0, 50, 50));
+
+}
+
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw; /* Adjust the width of each card as needed */
+    height: 30vh;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    padding: 20px; /* Add padding for better spacing */
+    transition: background 0.5s ease; /* Adjust the transition duration */
+  }
+  
+  .review {
+    flex: 1;
+    font-size: 1.1rem;
+    color: white; /* Set text color to white */
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author .name {
+    margin-right: 10px; /* Add spacing between name and designation */
+    font-size: 1rem; /* Adjust font size */
+    color: cyan; /* Set name color */
+  }
+  
+  .author .designation {
+    font-size: 0.9rem; /* Adjust font size */
+    color: lightgray; /* Set designation color */
+  }
+  
+  .review-card:hover {
+    background: linear-gradient(to right, rgb(0, 100, 100), rgb(0, 50, 50));
+  }
+  .review-card img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }

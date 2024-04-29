@@ -1,0 +1,62 @@
+.Card2 {
+    background-color: rgb(208, 253, 243);
+    height: 25vh;
+    width: 22vw;
+    border-radius: 20px;
+    /* padding: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+.mainCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Card2 h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.Card2 input[type="number"],
+.Card2 input[type="text"] {
+    width:90%; /* Take 20px padding into account */
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 50, 62);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Card2 button {
+    background-color: rgb(45, 50, 62); /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 8px 16px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card2 button:hover {
+    background-color: rgb(0, 140, 0);
+}
+.changeLimit{
+    width: 48%;
+}
+.addCategory{
+    width: 48%;
+}
+

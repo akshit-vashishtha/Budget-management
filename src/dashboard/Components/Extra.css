@@ -1,0 +1,7 @@
+.Extra{
+    height: 42vh;
+    width: 37vw;
+    background: linear-gradient(135deg,  rgb(208, 253, 243),rgb(24, 29, 36));
+    /* background-color: rgb(24, 29, 36); */
+    border-radius: 20px;
+}

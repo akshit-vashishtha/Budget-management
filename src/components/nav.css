@@ -1,0 +1,66 @@
+.navbar{
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    height: 15vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brand{
+    display: flex;
+    flex: 1.2;
+}
+.brand img{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.brand p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.links{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.mainBar{
+    background-color: rgb(32, 32, 32);
+    height: 9vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.mainBar a{
+    color: white;
+    text-decoration: none;
+    height: 60%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(32, 32, 32);
+    transition: background-color 0.2s;
+    
+}
+.mainBar a:hover{
+    background-color: rgb(72, 72, 72);
+}
+.login{
+    flex: 1.2;
+}
+.login button{
+    margin-left: 25%;
+    height: 6vh;
+    width: 40%;
+    border-radius: 30px;
+    background: linear-gradient(102.5509621477051deg,rgb(55,208,238),  rgb(1, 163, 163) );
+    font-size: 1rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}

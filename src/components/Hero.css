@@ -1,0 +1,49 @@
+.Hero{
+  background: url(./photo-1643557763509-5ce0178c98b8.avif);
+    height: 85vh;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    object-fit: cover;
+}
+.overlay {
+  padding-top: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:  linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)
+}
+.Hero .tagline{
+  margin-left: 40%;
+  text-align: center;
+  font-size: 1.2rem;
+  width: auto;
+  background: linear-gradient(89.99640135069485deg, rgba(37, 37, 53, 0) 0%, rgba(0, 255, 255, 0.46) 29.611819982528687%, rgba(0, 255, 255, 0.506) 70.28512954711914%, rgba(15, 15, 20, 0) 100%, rgba(15, 15, 20, 0) 100%);
+width: 20%;
+font-family: 'Red Hat Display','sans-serif';
+}
+.Hero h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.5rem;
+  width: 70%;
+  margin-left: 15%;
+}
+.Hero .belowh1{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.Hero button{
+  height: 6vh;
+  width: 10%;
+  border-radius: 30px;
+    background: linear-gradient(102.5509621477051deg,rgb(55,208,238),  rgb(1, 163, 163) );
+    font-size: 1rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 45%;
+}

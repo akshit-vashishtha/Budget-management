@@ -1,0 +1,22 @@
+.AboutCard{
+    width: 25vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    background: linear-gradient(to bottom,rgb(32, 32, 32)60%,rgb(32, 32, 32) ,rgba(0, 255, 255, 0.279)100% ,rgba(0, 255, 255, 0.627) 130%);
+    flex-direction: column;
+}
+.AboutCard p{
+    width: 90%;
+    text-align: center;
+    color: gray;
+}
+.AboutCard img{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.252);
+}
