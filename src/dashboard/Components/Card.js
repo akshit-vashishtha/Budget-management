@@ -1,6 +1,6 @@
 import React,{useEffect,useRef} from 'react';
 import './Card.css';
-export default function Card({ totalSpent, dailyLimit }) {
+export default function Card({ totalSpent, dailyLimit,resetData }) {
   // Calculate the percentage of totalSpent relative to dailyLimit
   const percentage = (totalSpent / dailyLimit) * 100;
 
@@ -33,6 +33,7 @@ export default function Card({ totalSpent, dailyLimit }) {
       <p className={percentage <= 100 ? 'under-budget' : 'exceeded-budget'}>
         {percentage <= 100 ? 'You are under the budget' : 'You have exceeded the budget'}
       </p>
+      <button onClick={resetData} className='resetButton'>Reset</button>
     </div>
   );
 }
