@@ -172,7 +172,7 @@ const [categoricalSpend,setCategoricalSpend]=useState({
               <Card totalSpent={totalSpent} dailyLimit={dailyLimit}/>
               <Card2 dailyLimit={dailyLimit} setDailyLimit={setDailyLimit} categories={categories} setCategories={setCategories}/>
           </div>
-          <ExpenseHistory expense={expense} setExpense={setExpense}/>
+          <ExpenseHistory expense={expense} setExpense={setExpense} categories={categories} setCategories={setCategories}/>
       </div>
       <div className='col2'>
       <div className='newExpense'>
