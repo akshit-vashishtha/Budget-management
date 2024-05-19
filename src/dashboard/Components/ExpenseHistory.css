@@ -7,7 +7,7 @@
     margin-left: 1%;
 }
 .expenselog{
-    height: 88%;
+    height: 84%;
     width: 95%;
     /* border: 2px solid black; */
     margin-left: 2%;
@@ -38,4 +38,15 @@
     font-weight: 900;
     font-size: 2.4rem;
     margin-bottom: 0;
+}
+.SearchAndSort{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -10px;
+}
+.Sort{
+  width: 25%;
+}
+.Search{
+  height: 1.5rem;
 }
