@@ -8,11 +8,13 @@
 h2{
     text-align: center;
     color: rgb(208, 253, 243);
+    margin: 0;
 }
 .spent{
     text-align: center;
     color: rgb(208, 253, 243);
     font-size: 1.2rem;
+    margin: 10px;
 }
   .progress-bar-container {
     margin-left: 10%;
@@ -40,4 +42,11 @@ h2{
     color: red;
     text-align: center;
   }
-  
+.resetButton{
+  background-color: rgb(208, 253, 243);
+  color: rgb(45, 50, 62);
+}
+.resetButton:hover{
+  background-color: rgba(90, 99, 121, 0.356);
+  color:rgb(208, 253, 243);
+}
